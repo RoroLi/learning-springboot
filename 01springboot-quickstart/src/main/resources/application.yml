@@ -1,0 +1,29 @@
+server:
+  servlet:
+    context-path: /springbootquickstart
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: prod
+server:
+  port: 8081
+---
+spring:
+  profiles: dev
+server:
+  port: 8082
+person:
+  name: 铁观音
+  age: 22
+  birthDate: 2018/5/14
+  pets:
+    - 小狗
+    - 小猫
+  cars[0]: 保时捷
+  cars[1]: 保时洁
+  maps: {key1: value1,key2: value2}
+  girlfriend.name: 泰勒
+  girlfriend.age: 18
