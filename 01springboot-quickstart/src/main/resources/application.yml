@@ -22,8 +22,7 @@ person:
   pets:
     - 小狗
     - 小猫
-  cars[0]: 保时捷
-  cars[1]: 保时洁
+  cars: [保时捷，保时洁]
   maps: {key1: value1,key2: value2}
   girlfriend.name: 泰勒
   girlfriend.age: 18
